@@ -21,26 +21,26 @@ int main(void) {
 
 	if (PINA == 0x00)
 	{
-	PINC = 0x04;	}
+	PORTC = 0x04;	}
 
-	else if (PINA == 0x01 || PINA == 0x02 || PINA == 0x03 || PINA == 0x04)
+	else if (PINA == 0x01 || PINA == 0x02 || PINA == 0x08 || PINA == 0x04)
 	{
-	PINC = 0x03; 
+	PORTC = 0x03; 
 	}
 
 	else if (PINA == 0x03 || PINA == 0x05 || PINA == 0x09 || PINA == 0x0A || PINA == 0x06 || PINA == 0x0C)
 	{
-	PINC = 0x02;
+	PORTC = 0x02;
 	}
 
 	else if (PINA == 0x07 || PINA == 0x0E || PINA == 0x0B || PINA == 0x0D)
 	{
-	PINC = 0x01;
+	PORTC = 0x01;
 	}
 
 	else 
 	{
-	PINC = 0x00;
+	PORTC = 0x00;
 	}
 	}
 		return 1;													 												 				}														 												 					 						 																	 					
