@@ -22,9 +22,9 @@ int main(void) {
 	{
 	PORTB  = 0x01; 
 	}
-	else if((PINA & 0x03))
+	else if((PINA & 0x03 == 0x03))
 {
-PORTB = 0x00
+PORTB = 0x00;
 }
 	else
 	{
