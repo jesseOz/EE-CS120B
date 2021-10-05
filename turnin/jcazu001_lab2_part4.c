@@ -36,7 +36,7 @@ warning1 =  0x01;
 }
 
 else {
- warning2 = 0x00; 
+ warning1 = 0x00; 
 }
 
 if (ACDiff > 0x50 || CADiff > 0x05 )
