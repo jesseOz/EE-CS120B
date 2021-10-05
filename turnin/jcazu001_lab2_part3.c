@@ -19,7 +19,7 @@ int main(void) {
 	//	unsigned char tmpA = 0x00; // Temporary variable to hold the value of A
 	while(1) {
 
-	if (PINA == 0x00)
+	if (PINA == 0x00 || PINA == 0x80)
 	{
 	PORTC = 0x04;	}
 
